@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 242, 242);
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+.head {
+    font-family: 'Sriracha', cursive;
+    text-transform: uppercase;
+}
