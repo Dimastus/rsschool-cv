@@ -14,10 +14,11 @@ body {
     width: 80%;
     margin: 0 auto;
     background-color: #fff;
-    text-align: center;
 }
 
 .head {
     font-family: 'Sriracha', cursive;
     text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid lightgrey;
 }
