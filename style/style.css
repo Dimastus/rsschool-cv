@@ -13,6 +13,7 @@ body {
 
 .wrapper {
     width: 80%;
+    max-width: 1024px;
     margin: 0 auto;
     background: url(../image/Joker.jpg) no-repeat;
     background-size: cover;
