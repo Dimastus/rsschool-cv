@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Resume</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="opacity-block">
+            <header class="head">
+                <h1>my small resume</h1>
+            </header>
+            <main class="content">
+                <ol>
+                    <li class="fullname">Dmitry Lugovsky</li>
+                    <li class="contacts">
+                        <h3>Contacts:</h3>
+                        <ul>
+                            <li>
+                                Email: <a href="mailto:dim56026257@yandex.ru">dim56026257@yandex.ru</a>
+                            </li>
+                            <li>
+                                Phone: <a href="tel:+375333494524">+375 (33) 349-45-24</a>
+                            </li>
+                            <li>
+                                Telegram: <a href="https://t.me/dimastys">Dmitry</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="summary">
+                        <span>I want to study JavaScript very deeply and write some website completely on it.</span>
+                    </li>
+                    <li class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JS (ES2015)</li>
+                            <li>Bootstrap 4</li>
+                            <li>jQuery</li>
+                        </ul>
+                    </li>
+                    <li class="code">
+                        <h3>Code example:</h3>
+                        <div>from <a
+                                href="https://www.codewars.com/kata/520b9d2ad5c005041100000f/javascript">codewars</a>
+                        </div>
+                        <code>
+                            <pre>
+function pigIt(str){
+    let result = str.split(' ').map(elem => {
+        let regexp = /[!?,.]/;
+        if(!regexp.test(elem)) {
+            let letters = elem.split('');
+            [letters[0], letters[letters.length]] =
+             [letters[letters.length], letters[0]];
+            letters.push("ay");
+            return letters.join('');
+        } else {
+            return elem;
+        }
+    });
+    return result.join(' ');
+}
+</pre>
+                        </code>
+                    </li>
+                    <li class="experiance">
+                        Experience about 1 year (<a href="https://www.codewars.com/users/Dimastus">codewars</a>, <a
+                            href="https://github.com/Dimastus">github</a>, <a
+                            href="https://codepen.io/dimastus/">codepen</a>).
+                    </li>
+                    <li class="level">English level: beginner</li>
+                </ol>
+            </main>
+            <footer>the end</footer>
+        </div>
+    </div>
+</body>
+
+</html>

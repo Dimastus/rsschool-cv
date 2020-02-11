@@ -1,0 +1,117 @@
+/* @import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 242, 242);
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background: url(../image/Joker.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.opacity-block {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: .8;
+}
+
+.head,
+footer {
+    font-family: 'Sriracha', cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.head {
+    border-bottom: 2px solid lightgrey;
+}
+
+.content {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.2em;
+    padding: 2% 5%;
+}
+
+ol > li {
+    padding: 1% 0 2% 30px;
+    margin: 1% 0;
+}
+
+ol > li:not(:last-child) {
+    border-bottom: 3px solid grey;
+    border-radius: 3px;
+}
+
+ol > li:first-child {
+    font-weight: bold;
+}
+
+.contacts ul,
+.skills ul {
+    padding-left: 30px;
+}
+
+
+.contacts ul li:nth-child(1) {
+    background: url(../image/icons8-email-48.png) no-repeat left center;
+}
+
+.contacts ul li:nth-child(2) {
+    background: url(../image/icons8-phone-48.png) no-repeat left center;
+}
+
+.contacts ul li:nth-child(3) {
+    background: url(../image/icons8-telegram-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(1) {
+    background: url(../image/icons8-html-5-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(2) {
+    background: url(../image/icons8-css3-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(3) {
+    background: url(../image/icons8-javascript-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(4) {
+    background: url(../image/icons8-bootstrap-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(5) {
+    background: url(../image/icons8-jquery-50.png) no-repeat left center;
+}
+
+.contacts ul li:nth-child(n),
+.skills ul li:nth-child(n) {
+    padding-left: 30px;
+    background-size: 25px;
+}
+
+.code code pre{
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    background: grey;
+    border-radius: 20px;
+}
+
+footer {
+    font-size: 2em;
+    font-weight: bold;
+    border-top: 2px solid lightgrey;
+}
