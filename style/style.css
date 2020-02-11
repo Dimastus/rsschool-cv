@@ -26,10 +26,14 @@ body {
     opacity: .8;
 }
 
-.head {
+.head,
+footer {
     font-family: 'Sriracha', cursive;
     text-transform: uppercase;
     text-align: center;
+}
+
+.head {
     border-bottom: 2px solid lightgrey;
 }
 
@@ -64,4 +68,10 @@ ol > li:first-child {
     font-weight: bold;
     background: grey;
     border-radius: 20px;
+}
+
+footer {
+    font-size: 2em;
+    font-weight: bold;
+    border-top: 2px solid lightgrey;
 }
