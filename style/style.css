@@ -100,6 +100,13 @@ ol > li:first-child {
 .skills ul li:nth-child(n) {
     padding-left: 30px;
     background-size: 25px;
+    margin: 5px;
+}
+
+.contacts ul li:nth-child(n):hover,
+.skills ul li:nth-child(n):hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px #000555;
 }
 
 .code code pre{
@@ -108,6 +115,11 @@ ol > li:first-child {
     font-weight: bold;
     background: grey;
     border-radius: 20px;
+}
+.code code pre:hover {
+    box-shadow: 1px 1px 10px #000 inset;
+    text-shadow: 0 0 3px #000;
+    color: lightyellow;
 }
 
 footer {
