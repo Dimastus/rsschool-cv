@@ -62,6 +62,45 @@ ol > li:first-child {
     padding-left: 30px;
 }
 
+
+.contacts ul li:nth-child(1) {
+    background: url(../image/icons8-email-48.png) no-repeat left center;
+}
+
+.contacts ul li:nth-child(2) {
+    background: url(../image/icons8-phone-48.png) no-repeat left center;
+}
+
+.contacts ul li:nth-child(3) {
+    background: url(../image/icons8-telegram-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(1) {
+    background: url(../image/icons8-html-5-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(2) {
+    background: url(../image/icons8-css3-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(3) {
+    background: url(../image/icons8-javascript-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(4) {
+    background: url(../image/icons8-bootstrap-48.png) no-repeat left center;
+}
+
+.skills ul li:nth-child(5) {
+    background: url(../image/icons8-jquery-50.png) no-repeat left center;
+}
+
+.contacts ul li:nth-child(n),
+.skills ul li:nth-child(n) {
+    padding-left: 30px;
+    background-size: 25px;
+}
+
 .code code pre{
     padding: 10px;
     color: #fff;
